@@ -1,0 +1,38 @@
+{
+  "rows": 150,
+  "missing_cells": 0,
+  "duplicate_rows": 3,
+  "duplicate_policy": "Retained: identical rounded measurements may represent distinct flowers.",
+  "data_sha256": "6f608b71a7317216319b4d27b4d9bc84e6abd734eda7872b71a458569e2656c0",
+  "evaluation": "5-fold stratified shuffled CV; seed 42; scaling fitted within each training fold",
+  "scores": {
+    "sepal": {
+      "fold_accuracy": [
+        0.8666666666666667,
+        0.7666666666666667,
+        0.8,
+        0.9333333333333333,
+        0.7
+      ],
+      "mean_accuracy": 0.8133333333333335,
+      "fold_sd": 0.09006170724070865
+    },
+    "petal": {
+      "fold_accuracy": [
+        1.0,
+        0.9666666666666667,
+        0.9,
+        1.0,
+        0.9
+      ],
+      "mean_accuracy": 0.9533333333333334,
+      "fold_sd": 0.05055250296034366
+    }
+  },
+  "versions": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "matplotlib": "3.9.2",
+    "scikit-learn": "1.5.2"
+  }
+}
