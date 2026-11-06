@@ -24,7 +24,7 @@ Setosa is visually separated in petal measurements; versicolor and virginica ove
 
 Sepal measurements show greater overlap, especially between versicolor and virginica. The computed comparison is recorded in [the results report](findings.md).
 
-Five-fold mean accuracy: **95.3% for petals** versus **81.3% for sepals**, using the same splits. See `findings.md` for individual fold results and interpretation.
+Five-fold mean accuracy: **95.3% for petals** versus **81.3% for sepals**, using the same splits. See [the portfolio](https://weiziming369.github.io/data-science-portfolio/) for the project summary and [findings.md](findings.md) for individual fold results and interpretation.
 
 ## Limitations and next steps
 This is a small, historical, balanced teaching dataset. Accuracy on these folds does not establish performance on flowers collected in another setting. Exploratory comparison on one dataset is not a causal result. Next steps include evaluating an independent dataset, examining misclassified examples, and reporting sensitivity to different splits.
@@ -49,7 +49,3 @@ The script reads the included data without network access and regenerates `petal
 - `petal_scatter.png`, `sepal_scatter.png`: generated visualizations.
 - `summary.json`, `species_means.csv`, `findings.md`: computed results and interpretation.
 - `requirements.txt`: pinned dependencies.
-
-## AI assistance
-Prepared with assistance from OpenAI Codex for code, documentation, visualization and website drafting. The student should review, understand and verify the submitted work. No peer feedback is claimed until it is actually received.
-
